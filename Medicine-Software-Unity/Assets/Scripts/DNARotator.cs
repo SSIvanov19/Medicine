@@ -9,6 +9,6 @@ public class DNARotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(speed, 0, 0));
+        transform.Rotate(new Vector3(speed * Time.fixedDeltaTime, 0, 0));
     }
 }
