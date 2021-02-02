@@ -9,7 +9,8 @@ public class AppManager : MonoBehaviour
     public GameObject thanksScreen;
     public GameObject welcomeScreen;
     public GameObject helpScreen;
-    
+    public GameObject DNA;
+
     public GameObject medicine1;
     public GameObject medicine2;
     public GameObject medicine3;
@@ -34,6 +35,7 @@ public class AppManager : MonoBehaviour
     {
         isSmartphone = true;
         welcomeScreen.SetActive(false);
+        DNA.SetActive(false);
         confirmationScreen.SetActive(true);
         
         selectedMedicine = 1;
@@ -56,6 +58,7 @@ public class AppManager : MonoBehaviour
     {
         isSmartphone = false;
         welcomeScreen.SetActive(false);
+        DNA.SetActive(false);
         medicinePicker.SetActive(true);
         
         medicine1.SetActive(true);
@@ -70,6 +73,7 @@ public class AppManager : MonoBehaviour
     public void BackToWelcome()
     {
         welcomeScreen.SetActive(true);
+        DNA.SetActive(true);
         medicinePicker.SetActive(false);
         
         if (selectedMedicine == 1)
