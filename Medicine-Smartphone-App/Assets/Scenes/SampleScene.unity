@@ -20,12 +20,20 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
+<<<<<<< HEAD
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
+<<<<<<< HEAD
   m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -98,7 +106,11 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
+<<<<<<< HEAD
   m_LightingSettings: {fileID: 4890085278179872738, guid: a27d9dc9e06d1354e82eea5029c4b92f, type: 2}
+=======
+  m_LightingSettings: {fileID: 0}
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -163,6 +175,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276995364}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.046120025, y: 4.446281, z: 109.15945}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -201,6 +214,14 @@ Transform:
   - {fileID: 1229167795}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -285,6 +306,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &786270577
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +339,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
 --- !u!1 &939085978
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,6 +405,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229167791
@@ -596,6 +621,10 @@ Transform:
   m_Father: {fileID: 352276158}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
+=======
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
 --- !u!1 &1424896708
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +638,11 @@ GameObject:
   - component: {fileID: 1424896710}
   - component: {fileID: 1424896709}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: NFCCanvas
+=======
+  m_Name: Canvas
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -689,14 +722,20 @@ RectTransform:
   m_Children:
   - {fileID: 1786884068}
   - {fileID: 1819703566}
+<<<<<<< HEAD
   m_Father: {fileID: 786270578}
   m_RootOrder: 1
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!1 &1773716176
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,6 +870,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773716176}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
 --- !u!1 &1786884067
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,6 +1140,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819703565}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!1 &1991310232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,3 +1275,5 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991310232}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6

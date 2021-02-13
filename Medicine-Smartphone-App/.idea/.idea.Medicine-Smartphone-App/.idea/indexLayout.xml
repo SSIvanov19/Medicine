@@ -3,7 +3,10 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+<<<<<<< HEAD
       <Path>Assets</Path>
+=======
+>>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
       <Path>Library/PackageCache/com.unity.2d.animation@5.0.3</Path>
       <Path>Library/PackageCache/com.unity.2d.common@4.0.3</Path>
       <Path>Library/PackageCache/com.unity.2d.path@4.0.1</Path>
