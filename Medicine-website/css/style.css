@@ -1,0 +1,75 @@
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito", sans-serif;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+.flex-column {
+    flex-direction: column!important;
+}
+@media (min-width: 992px) {
+    .col-lg-6 {
+        text-align: center;
+        flex: 0 0 auto;
+        /* width: 50%; */
+    }
+    .hero h1 {
+         margin-top: 0;
+         font-size: 48px;
+         font-weight: 700;
+         color: #f0f0f0;
+     }
+}
+.hero .btn-get-started {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgb(65 84 241 / 40%);
+}
+.hero h1 {
+    margin-top: 200px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #f0f0f0;
+}
+.hero h2 {
+    color: #f0f0f0;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+}
+.navbar-default .navbar-brand {
+    color: #fff !important;
+}
