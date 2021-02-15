@@ -62,11 +62,7 @@ public class NFC : MonoBehaviour
                     }
                     else if (sAction == "android.nfc.action.TAG_DISCOVERED")
                     {
-<<<<<<< HEAD
                         debugOutputText.text = "This type of tag is not supported !";
-=======
-                        Debug.Log("This type of tag is not supported !");
->>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
                     }
                     else
                     {
@@ -76,19 +72,9 @@ public class NFC : MonoBehaviour
                 catch (Exception ex)
                 {
                     var text = ex.Message;
-<<<<<<< HEAD
                     debugOutputText.text = "Catch";
                 }
             }
-=======
-                    tagOutputText.text = text;
-                }
-            }
-            else
-            {
-                debugOutputText.text = "No NFC found";
-            }
->>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
         }
         else
         {

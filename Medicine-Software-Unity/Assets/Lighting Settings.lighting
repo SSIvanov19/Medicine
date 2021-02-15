@@ -16,11 +16,7 @@ LightingSettings:
   m_AlbedoBoost: 1
   m_IndirectOutputScale: 1
   m_UsingShadowmask: 0
-<<<<<<< HEAD
   m_BakeBackend: 1
-=======
-  m_BakeBackend: 2
->>>>>>> 08f1b718a4c812eb39e413d4cb932e21133f26f6
   m_LightmapMaxSize: 1024
   m_BakeResolution: 40
   m_Padding: 2
