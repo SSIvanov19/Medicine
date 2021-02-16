@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class AppManager : MonoBehaviour
 {
     public GameObject medicinePicker;
+    public GameObject connectionScreen;
     public GameObject confirmationScreen;
     public GameObject thanksScreen;
     public GameObject welcomeScreen;
@@ -18,7 +19,9 @@ public class AppManager : MonoBehaviour
     private int selectedMedicine;
     private bool helpShow = false;
     private bool isSmartphone = false;
-    
+    private static readonly int GoAway = Animator.StringToHash("GoAway");
+    private static readonly int GoCloser = Animator.StringToHash("GoCloser");
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +34,24 @@ public class AppManager : MonoBehaviour
         
     }
 
+    public void LoadConnectionScreen()
+    {
+        Animator dnaAnimator = DNA.GetComponent<Animator>();
+        Animator welcomeScreenAnimator = welcomeScreen.GetComponent<Animator>();
+        Animator connectionAnimator = connectionScreen.GetComponent<Animator>();
+
+        connectionScreen.SetActive(true);
+        
+        dnaAnimator.SetTrigger(GoAway);
+        welcomeScreenAnimator.SetTrigger(GoAway); 
+        connectionAnimator.SetTrigger(GoCloser);
+        
+        StopAllCoroutines();
+        StartCoroutine(SetActiveObject(DNA, false, 2));
+        StartCoroutine(SetActiveObject(welcomeScreen, false, 2));
+    }
+    
+    /*
     public void ContinueWithSmartphone()
     {
         isSmartphone = true;
@@ -53,12 +74,12 @@ public class AppManager : MonoBehaviour
             medicine3.SetActive(true);
         }
     }
+    */
     
     public void ContinueWithoutSmartphone()
     {
         isSmartphone = false;
-        welcomeScreen.SetActive(false);
-        DNA.SetActive(false);
+        connectionScreen.SetActive(false);
         medicinePicker.SetActive(true);
         
         medicine1.SetActive(true);
@@ -229,12 +250,18 @@ public class AppManager : MonoBehaviour
         
         thanksScreen.SetActive(true);
         StopAllCoroutines();
-        StartCoroutine(WaitForSeconds(10));
+        StartCoroutine(LoadScene(10));
     }
     
-    IEnumerator WaitForSeconds(int time)
+    IEnumerator LoadScene(int time)
     {
         yield return new WaitForSecondsRealtime(time);
         SceneManager.LoadScene(0);
+    }
+
+    IEnumerator SetActiveObject(GameObject gameObject, bool active, int time)
+    {
+        yield return new WaitForSecondsRealtime(time);
+        gameObject.SetActive(active);
     }
 }
