@@ -1,20 +1,22 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using ZXing;
-using ZXing.QrCode;
 using System;
 using TMPro;
 
 public class CamScript : MonoBehaviour
 {
+    public GameObject QRParent;
+    public GameObject ConnectionPage;
+
     public RectTransform rectToMatch;
     public TextMeshProUGUI tagOutputText;
     public TextMeshProUGUI debugOutputText;
-    
+
     private WebCamTexture webCameraTexture;
 
     private int frames = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +41,8 @@ public class CamScript : MonoBehaviour
                 if (result != null)
                 {
                     tagOutputText.text = "DECODED TEXT FROM QR: " + result.Text;
+                    StopAllCoroutines();
+                    StartCoroutine(ReturnToConnectioWithDelay(10));
                 }
                 else
                 {
@@ -52,5 +56,12 @@ public class CamScript : MonoBehaviour
 
             frames = 0;
         }
+    }
+
+    IEnumerator ReturnToConnectioWithDelay(int time)
+    {
+        yield return new WaitForSecondsRealtime(time);
+        QRParent.SetActive(false);
+        ConnectionPage.SetActive(true);
     }
 }
