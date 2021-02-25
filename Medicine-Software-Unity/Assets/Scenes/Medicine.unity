@@ -1188,7 +1188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &280268262
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2568,7 +2568,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Please scan the QR code with the Medicine app your smartphone
+  m_text: Please scan the QR code with the Medicine app on your smartphone
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8370b2460b2a4604090090f9547d74a2, type: 2}
   m_sharedMaterial: {fileID: -3224413455418377001, guid: 8370b2460b2a4604090090f9547d74a2, type: 2}
@@ -3663,7 +3663,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: chose yourself
+  m_text: choose yourself
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8370b2460b2a4604090090f9547d74a2, type: 2}
   m_sharedMaterial: {fileID: -3224413455418377001, guid: 8370b2460b2a4604090090f9547d74a2, type: 2}
@@ -3690,7 +3690,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.95
+  m_fontSize: 24.8
   m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 1
