@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NFC_bg
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: bg
+  m_SharedData: {fileID: 11400000, guid: a9acd6d5539428048b002c459351babe, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10395308032
+    m_Localized: "\u041C\u043E\u043B\u044F, \u043F\u043E\u0441\u0442\u0430\u0432\u0435\u0442\u0435
+      \u0432\u0430\u0448\u0438\u044F \u0441\u043C\u0430\u0440\u0442\u0444\u043E\u043D\r\n\u043D\u0430
+      \u043E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u043E\u0442\u043E \u043C\u044F\u0441\u0442\u043E "
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UIText_bg
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: bg
+  m_SharedData: {fileID: 11400000, guid: 090636d6ffec19b43aae18e1f9f5697d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 182944780288
+    m_Localized: "\u041B\u0435\u043A\u0430\u0440\u0441\u0442\u0432\u043E\u043C\u0430\u0442"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6732182704128
+    m_Localized: "\u043A\u044A\u043C \u043B\u0435\u043A\u0430\u0441\u0442\u0432\u0430\u0442\u0430"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6649798184960
+    m_Localized: Lorem 1500s, when an unknown printer took a galley of type specimen
+      book, BG
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
