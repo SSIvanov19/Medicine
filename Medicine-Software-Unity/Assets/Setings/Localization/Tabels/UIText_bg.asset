@@ -31,5 +31,9 @@ MonoBehaviour:
       book, BG
     m_Metadata:
       m_Items: []
+  - m_Id: 1559569056387072
+    m_Localized: 'Change language:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

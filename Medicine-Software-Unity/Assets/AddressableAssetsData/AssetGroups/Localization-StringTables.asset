@@ -73,6 +73,20 @@ MonoBehaviour:
     - Locale-en
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 59f7295394e2de34fabce579c3aa7665
+    m_Address: MedicinePicker_bg
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bg
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fcc5bf81848b63843b4e0df71a9641b9
+    m_Address: MedicinePicker_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b3461f3f03b9e9d4e938180657bae459, type: 2}
   m_SchemaSet:

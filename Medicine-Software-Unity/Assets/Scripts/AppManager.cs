@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class AppManager : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class AppManager : MonoBehaviour
     public GameObject medicine1;
     public GameObject medicine2;
     public GameObject medicine3;
+
+    public Button buyButton;
     
     private int selectedMedicine;
     private bool helpShow = false;
@@ -31,7 +34,14 @@ public class AppManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (selectedMedicine == 3)
+        {
+            buyButton.interactable = false;
+        }
+        else
+        {
+            buyButton.interactable = true;
+        }
     }
 
     public void LoadConnectionScreen()

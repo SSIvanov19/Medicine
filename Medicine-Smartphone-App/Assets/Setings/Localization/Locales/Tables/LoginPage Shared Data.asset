@@ -27,6 +27,10 @@ MonoBehaviour:
     m_Key: LoginText
     m_Metadata:
       m_Items: []
+  - m_Id: 1133257317666816
+    m_Key: RegisterText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
