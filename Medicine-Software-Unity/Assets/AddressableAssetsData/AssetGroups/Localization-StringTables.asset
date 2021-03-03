@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-StringTables
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-StringTables
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 74c15ad0c99ba5744a536730486ba885
+  m_SerializeEntries:
+  - m_GUID: 98188cde5c5463a499b4c07af967963c
+    m_Address: WelcomeScreen_bg
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bg
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 70b9b2c51028a974e832e2f7a195a5d5
+    m_Address: WelcomeScreen_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7b24484390068af4e94ae77661996291
+    m_Address: ConnectScreen_bg
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bg
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ce5e3a9f0de7f5742b4354a381b9acde
+    m_Address: ConnectScreen_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 481eb212b7985dd43a942407d4bbfa21
+    m_Address: ConfirmationScreen_bg
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bg
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 19b135adf30db81449db2b04fd7bf6ea
+    m_Address: ConfirmationScreen_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 63b8260adf2141d4e996ea9765bfad9d
+    m_Address: ThanksScreen_bg
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bg
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: da6f299a7550ec340a9a890c178bd08e
+    m_Address: ThanksScreen_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 59f7295394e2de34fabce579c3aa7665
+    m_Address: MedicinePicker_bg
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bg
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fcc5bf81848b63843b4e0df71a9641b9
+    m_Address: MedicinePicker_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b3461f3f03b9e9d4e938180657bae459, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f2e48a95b0eedd6459a410d2c4fdc735, type: 2}
+    - {fileID: 11400000, guid: 20593b341841d024385f7590f45462a8, type: 2}

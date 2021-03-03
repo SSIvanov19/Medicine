@@ -8,4 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Medicine.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 9e2ac0f66cc65714d823b7e417f7fc6b, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 777da0284f27c5b4d978a3e79dfc162b, type: 2}

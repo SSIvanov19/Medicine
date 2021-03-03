@@ -63,5 +63,6 @@ public class CamScript : MonoBehaviour
         yield return new WaitForSecondsRealtime(time);
         QRParent.SetActive(false);
         ConnectionPage.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 }
