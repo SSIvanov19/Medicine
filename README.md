@@ -1,6 +1,6 @@
 # Medicine
 ### Repo for project about machine, that gives medicine automatically. Developed for NOIT 2020-2021. 
-
+### This repo requires Git LFS installed on your machine
 # Participants
 
 Stoyan Ivanov - [SSIvanov19](https://github.com/SSIvanov19)  
